@@ -127,6 +127,20 @@ nav {
   background-color: #5d3eff;
 }
 
+.nav__link--anchor-lang{
+  background-color: black;
+  padding: 8px 8px;
+  border-radius: 50px;
+  color: white;
+  transition: all 300ms ease;
+}
+
+.nav__link--anchor-lang:hover {
+  background-color: #5d3eff;
+  font-size: 17px;
+}
+
+
 .personal__logo {
   font-size: 24px;
   color: #6030b1;
