@@ -136,8 +136,9 @@ nav {
 }
 
 .nav__link--anchor-lang:hover {
-  background-color: #5d3eff;
-  font-size: 17px;
+  background-color: gray;
+  
+  
 }
 
 
@@ -488,7 +489,7 @@ footer {
 
 /* SMALL PHONES */
 @media (max-width: 480px) {
-  .nav__link:not(:last-child) {
+  .nav__link:not(:nth-last-child(-n+2)) {
     display: none;
   }
 
